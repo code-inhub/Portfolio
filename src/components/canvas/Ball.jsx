@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
 
-const Ball = () => {
+const BallCanvas = ({ icon ,line}) => {
   return (
-    <div>Ball</div>
-  )
-}
+    <>
+      <img
+        src={icon}
+        alt="icon"
+        className="w-20 h-20	 rounded-full object-contain bg-white "
+      />
+      <div className=" flex justify-center m-10 ">{line}</div>
+    </>
+  );
+};
 
-export default Ball
+export default BallCanvas;

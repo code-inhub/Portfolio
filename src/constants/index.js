@@ -3,22 +3,29 @@ import {
   backend,
   creator,
   web,
+  c,
+  cpp,
+  Python,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
+  Sql,
+  Mysql,
+  Bootstrap,
+  Expressjs,
+  Netlify,
+  Github,
+  Mongoose,
+  vscode,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  intern,
+  algoders,
+  GDSC,
+  TPC,
   carrent,
   jobit,
   tripguide,
@@ -33,6 +40,14 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "skills",
+    title: "Skills",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -59,7 +74,15 @@ const services = [
   },
 ];
 
-const technologies = [
+const languages = [
+  {
+    name: "C",
+    icon: c,
+  },
+  {
+    name: "C++",
+    icon: cpp,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -73,98 +96,137 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Python",
+    icon: Python,
+  },
+  { name: "SQL",
+   icon: Sql,
+},
+]; 
+
+ const libraries= [
+   {
+     name: "React JS",
+     icon: reactjs,
+   },
+  {
+    name: "Express JS",
+    icon: Expressjs,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Bootstrap",
+    icon: Bootstrap,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
+    name: "Mongoose",
+    icon: Mongoose,
+  }
+  ]
+
+  const databases=[
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "MySQL",
+    icon: Mysql,
   },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-];
+]
+  
+  const tools = [
+    {
+      name: "Node JS",
+      icon: nodejs,
+    },
+    {
+      name: "Three JS",
+      icon: threejs,
+    },
+    {
+      name: "Git",
+      icon: git,
+    },
+    {
+      name: "Git Hub",
+      icon: Github,
+    },
+
+    {
+      name: "VS Code",
+      icon: vscode,
+    },
+    {
+      name: "Netlify",
+      icon: Netlify,
+    },
+  ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Peer Mentor",
+    company_name: "Algoders Community",
+    icon: algoders,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "December 2021 - December 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      // "Developing and maintaining web applications using React.js and other related technologies.",
+      "Helping peers to learn and grow in the field of Coding.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Working with them to solve their doubts and queries.",
+      "Helping them to improve their coding skills.",
+      // "Implementing responsive design and ensuring cross-browser compatibility.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Core Member",
+    company_name: "GDSC  UIET,PU",
+    icon: GDSC,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked on management related roles.",
+      "Worked with team and made the Technical events successful.",
+      // "Developing and maintaining web applications using React.js and other related technologies.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      // "Implementing responsive design and ensuring cross-browser compatibility.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Core Member",
+    company_name: "TPC UIET,PU",
+    icon: TPC,
+    iconBg: "#383E56",
+    date: "Jan 2023 - Present ",
+    points: [
+      "Working as Core Member in Technical and Placement Cell.",
+      // "Worked on management related roles.",
+      "Working for providing more better placement opportunities to students.",  
+
+      // "Developing and maintaining web applications using React.js and other related technologies.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      // "Implementing responsive design and ensuring cross-browser compatibility.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Full stack Developer(Soon)",
+    company_name: "Intern at ...",
+    icon: intern,
+    iconBg: "#E6DEDD",
+    date: "June 2023 - July 2023",
+    points: [
+      ""
+      // "Developing and maintaining web applications using React.js and other related technologies.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      // "Implementing responsive design and ensuring cross-browser compatibility.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
@@ -198,9 +260,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "News App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The News App is a web-based platform that provides users with access to news articles. It is built using technologies such as React and Bootstrap. The app's source code is available on GitHub.",
     tags: [
       {
         name: "react",
@@ -262,4 +324,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, experiences, testimonials, projects, tools ,databases,libraries,languages };
