@@ -16,6 +16,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -27,6 +28,8 @@ const ProjectCard = ({
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
+        <a href={link} target="_blank">
+
         <div className="relative w-full h-[230px]">
           <img
             src={image}
@@ -43,10 +46,11 @@ const ProjectCard = ({
                 src={github}
                 alt="source code"
                 className=" w-3/4 h-3/4 object-contain"
-              />
+                />
             </div>
           </div>
         </div>
+                </a>
 
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
@@ -90,8 +94,8 @@ const Works = () => {
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        {projects.map((project,index,link) => (
+          <ProjectCard key={`project-${index}`} index={index} link={link} {...project} />
         ))}
       </div>
     </>

@@ -6,6 +6,11 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import twitter from "./tech/Tweeter.png";
+import linkedin from "./tech/linkedin.png";
+import leetcode from "./tech/leetcode.png";
+import codechef from "./tech/codechef.jpg";
+import logoend from "./logoend.png";
 
 import c from "./tech/C.png";
 import Python from "./tech/Python.jpeg";
@@ -39,16 +44,22 @@ import algoders from "./company/algoders.jpg";
 import GDSC from "./company/GDSC.jpg";
 
 import carrent from "./carrent.png";
+import hackerman from "./hackerman.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  leetcode,
   logo,
+  codechef,
+  logoend,
   backend,
   creator,
   mobile,
   web,
   github,
+  linkedin ,
+  twitter,
   menu,
   close,
   css,
@@ -81,6 +92,7 @@ export {
   algoders,
   GDSC,
   carrent,
+  hackerman,
   jobit,
   tripguide,
 };

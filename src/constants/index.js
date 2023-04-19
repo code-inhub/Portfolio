@@ -19,6 +19,10 @@ import {
   Expressjs,
   Netlify,
   Github,
+  linkedin,
+  twitter,
+  codechef,
+  leetcode,
   Mongoose,
   vscode,
   git,
@@ -29,6 +33,7 @@ import {
   carrent,
   jobit,
   tripguide,
+  hackerman,
   threejs,
 } from "../assets";
 
@@ -52,6 +57,34 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+];
+
+const socialLinks = [
+  {
+    id: "linkedin",
+    img: linkedin,
+    url: "https://www.linkedin.com/in/theanshulrana/",
+  },
+  {
+    id: "twitter",
+    img: twitter,
+    url: "https://twitter.com/code_inhub",
+  },
+  {
+    id: "github",
+    img: Github,
+    url: "https://github.com/code-inhub",
+  },
+  {
+    id: "leetcode",
+    img: leetcode,
+    url: "https://leetcode.com/anshulrana/",
+  },
+  {
+    id: "codechef",
+    img: codechef,
+    url: "https://www.codechef.com/users/ninja96",
   },
 ];
 
@@ -260,16 +293,38 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Weather App",
+    description:
+      "The Weather App is a web application that allows users to check the weather for different locations. It is built using Java Script, Weather API, and CSS. The app's source code is available on GitHub and a live demo is available on Netlify.",
+    tags: [
+      {
+        name: "Java Script",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Weather API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/code-inhub/Weather-App-Project",
+    link: "https://sweaterwheather.netlify.app/",
+  },
+  {
     name: "News App",
     description:
-      "The News App is a web-based platform that provides users with access to news articles. It is built using technologies such as React and Bootstrap. The app's source code is available on GitHub.",
+      "The News App is a web-based platform that provides users with access to news articles. It is built using technologies such as React and Bootstrap. The app's source code is available on GitHub and you can run it on your localhost and get the latest updates.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "News API",
         color: "green-text-gradient",
       },
       {
@@ -278,50 +333,53 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/code-inhub/NewsApp",
+    link: "https://github.com/code-inhub/NewsApp ",
   },
   {
-    name: "Job IT",
+    name: "Calculator",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Calculator project is a simple calculator that allows users to perform basic arithmetic operations in a fancy way. It is built using technologies such as HTML, CSS, and JavaScript. The app's source code is available on GitHub and a live demo is available on Netlify.",
     tags: [
       {
-        name: "react",
+        name: "JS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "HTML",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/code-inhub/My-Calculator",
+    link: "https://bdmas.netlify.app/",
+  },
+  {
+    name: "HackerMan",
+    description:
+      " HackerMan project is a joke web application designed to scare non-tech-savvy individuals by displaying a fake hacker interface. It is something which I designed for fun during my initial stages of learning. ",
+    tags: [
+      {
+        name: "js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hackerman,
+    source_code_link: "https://github.com/code-inhub/HackerMan",
+    link: "https://hacklol.netlify.app/",
   },
 ];
 
-export { services, experiences, testimonials, projects, tools ,databases,libraries,languages };
+export { services, experiences, testimonials,socialLinks ,projects, tools ,databases,libraries,languages };

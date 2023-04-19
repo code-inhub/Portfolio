@@ -51,8 +51,8 @@ const About = () => {
         learning, and competitive coding, I am always eager to learn and expand
         my knowledge in the field. I thrive in collaborative environments that
         value creativity and technical excellence, and I have worked on projects
-        ranging from developing web applications to building and training
-        machine learning models. My problem-solving skills are well-honed,
+        ranging from developing web applications to managing them.
+        My problem-solving skills are well-honed,
         thanks to my experience in competitive coding and LeetCode. I enjoy
         breaking down complex problems into manageable parts, and finding
         elegant solutions that are both efficient and effective. I am committed
