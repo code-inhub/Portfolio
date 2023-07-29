@@ -31,6 +31,7 @@ import {
   GDSC,
   TPC,
   carrent,
+  Mechat,
   jobit,
   tripguide,
   hackerman,
@@ -306,15 +307,36 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: jobit,
+    image: Mechat,
     source_code_link: "https://github.com/code-inhub/MeChat",
     link: "https://mechatapp.netlify.app/",
   },
-  
+  {
+    name: "News App",
+    description:
+      "The News App is MERN application that provides you the latest news.",
+    tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Rest API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/code-inhub/NewsApp",
+    link: "https://holy-monk.netlify.app/",
+  },
   {
     name: "Weather App",
     description:
-      "The Weather App is a web application that allows users to check the weather for different locations. It is built using Java Script, Weather API, and CSS. The app's source code is available on GitHub and a live demo is available on Netlify.",
+      "The Weather App is a web application that allows users to check the weather for different locations. It is built using Java Script, Weather API, and CSS.",
     tags: [
       {
         name: "Java Script",
@@ -333,32 +355,11 @@ const projects = [
     source_code_link: "https://github.com/code-inhub/Weather-App-Project",
     link: "https://sweaterwheather.netlify.app/",
   },
-  {
-    name: "News App",
-    description:
-      "The News App is a web-based platform that provides users with access to news articles. It is built using technologies such as React and Bootstrap. The app's source code is available on GitHub and you can run it on your localhost and get the latest updates.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "News API",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/code-inhub/NewsApp",
-    link: "https://github.com/code-inhub/NewsApp ",
-  },
+  
   {
     name: "Calculator",
     description:
-      "Calculator project is a simple calculator that allows users to perform basic arithmetic operations in a fancy way. It is built using technologies such as HTML, CSS, and JavaScript. The app's source code is available on GitHub and a live demo is available on Netlify.",
+      "Calculator project is a simple calculator that allows users to perform basic arithmetic operations in a fancy way. It is built using technologies such as HTML, CSS, and JavaScript.",
     tags: [
       {
         name: "JS",
