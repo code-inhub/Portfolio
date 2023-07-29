@@ -293,6 +293,25 @@ const testimonials = [
 
 const projects = [
   {
+   name: "MeChat",
+    description:
+      "A Chat application to let you talk and share whatever you want.",
+    tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Material UI",
+        color: "green-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/code-inhub/MeChat",
+    link: "https://mechatapp.netlify.app/",
+  },
+  
+  {
     name: "Weather App",
     description:
       "The Weather App is a web application that allows users to check the weather for different locations. It is built using Java Script, Weather API, and CSS. The app's source code is available on GitHub and a live demo is available on Netlify.",
