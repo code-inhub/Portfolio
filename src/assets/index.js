@@ -47,6 +47,7 @@ import carrent from "./carrent.png";
 import hackerman from "./hackerman.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import mechat from "./mechat.png";
 
 export {
   leetcode,
@@ -94,5 +95,6 @@ export {
   carrent,
   hackerman,
   jobit,
+  mechat,
   tripguide,
 };
